@@ -458,10 +458,18 @@ main {
 .custom_card_2 {
   padding: 5px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 10px;
   align-items: start;
+  justify-content: center;
+  align-items: center;
 }
+
+/* @media (min-width: 768px) {
+  .custom_card_2 {
+    flex-direction: row;
+  }
+} */
 
 .custom_card_2 h6 {
   white-space: normal;
@@ -470,6 +478,5 @@ main {
 }
 
 .custom_flex {
-  text-align: left;
-  flex: 1;
+  text-align: center;
 }
